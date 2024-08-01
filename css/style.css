@@ -1,0 +1,212 @@
+/* ini css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo-item {
+    height: auto;
+    width: 75px;
+    background-size: cover;
+}
+
+.nav-container {
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+}
+
+.nav-item {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 8px;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content-item {
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-banner {
+    background-image: url(https://picsum.photos/250);
+    width: 100%;
+    height: auto;
+}
+
+.main-item {
+    border-bottom: 1px solid;
+}
+
+.item-comment {
+    margin: 20px 10px 10px 10px;
+}
+
+.item-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon {
+    background-image: url(https://picsum.photos/150);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.user {
+    margin: 10px;
+}
+
+.main-content-form {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10%;
+
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.main-footer {
+    margin: 10px 0;
+}
+
+.main-feature {
+    display: flex;
+}
+
+.number-feature {
+    border: 1px solid;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.number-item {
+    margin: 10px;
+}
+
+.end-content {
+    border-top: 1px solid;
+}
+
+.container {
+    width: 100%;
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0 ;
+}
+
+.package {
+    display: flex;
+    width: 30%;
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.package h3 {
+    margin-top: 0;
+}
+
+.end-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.end-feature {
+    margin: 20px 0;
+}
+
+.end-feature p {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-call {
+    display: flex;
+    justify-content: center;
+}
+
+.button-call {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-send{
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    background-color: #007BFF;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 1px;
+}
